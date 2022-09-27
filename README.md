@@ -22,7 +22,7 @@ Example:
 You can use regex for the `text_to_find` argument. To find two or more words, wrap the text with doublq quotes `"cocok untuk kulit"`. Regex usage example: `"cocok|sensitif"` to find the word cocok or sensitif.
 
 ### Save to file
-If you want to save output to a file, use:
+If you want to save the output to a file, use:
 
 `python main.py Tokopedia_URL text_to_find --save-to filename`
 
