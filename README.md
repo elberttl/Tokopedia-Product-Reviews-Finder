@@ -1,11 +1,17 @@
 # Tokopedia-Product-Reviews-Finder
 A simple Python script to find reviews on a Tokopedia product
 
+- [Tokopedia-Product-Reviews-Finder](#tokopedia-product-reviews-finder)
+  - [Requirements](#requirements)
+  - [Usage](#usage)
+    - [Basic Usage](#basic-usage)
+    - [Save to file](#save-to-file)
+
 ## Requirements
 `Python` and `requests` package
 
 ## Usage
-Basic usage:
+### Basic Usage
 
 `python main.py Tokopedia_URL text_to_find`
 
@@ -15,6 +21,7 @@ Example:
 
 You can use regex for the `text_to_find` argument. To find two or more words, wrap the text with doublq quotes `"cocok untuk kulit"`. Regex usage example: `"cocok|sensitif"` to find the word cocok or sensitif.
 
+### Save to file
 If you want to save output to a file, use:
 
 `python main.py Tokopedia_URL text_to_find --save-to filename`
