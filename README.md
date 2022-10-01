@@ -1,5 +1,5 @@
 # Tokopedia-Product-Reviews-Finder
-A simple Python script to find reviews on a Tokopedia product
+A Python script to find reviews on a Tokopedia product
 
 - [Tokopedia-Product-Reviews-Finder](#tokopedia-product-reviews-finder)
   - [Requirements](#requirements)
